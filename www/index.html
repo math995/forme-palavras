@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Jquery -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!-- js links -->
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
+ <!-- Map quest -->
+ <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+  <!-- CSS -->
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+  <div class="row">
+      <div class="col-sm-12 p-3 text-center bg-dark">
+        <h1 style="color:white">Forme a Palavra</h1>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 pergunta">
+      <img src="" id="pergunta">
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1 class="text-danger" id="display">...</h1>
+    </div>
+  </div>
+  <hr>
+  <br>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <button class="btn btn-primary btn-lg alternativa">S</button>
+      <button class="btn btn-primary btn-lg alternativa">D</button>
+      <button class="btn btn-primary btn-lg alternativa">A</button>
+      <button class="btn btn-primary btn-lg alternativa">N</button>
+      <button class="btn btn-primary btn-lg alternativa">P</button>
+      <button class="btn btn-primary btn-lg alternativa">J</button>
+      <button class="btn btn-primary btn-lg alternativa">C</button>
+      <br><br>
+      <button class="btn btn-primary btn-lg alternativa">O</button>
+      <button class="btn btn-primary btn-lg alternativa">Z</button>
+      <button class="btn btn-primary btn-lg alternativa">R</button>
+      <button class="btn btn-primary btn-lg alternativa">L</button>
+
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <button class="btn btn-danger btn-lg" id="responder">Responder</button>
+    </div>
+  </div>
+</div>
+<script src="lib/jquery.js"></script>
+<script src="lib/app.js"></script>
+</body>
+</html>
